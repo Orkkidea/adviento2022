@@ -1,0 +1,92 @@
+/*Styles xmas salute*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+body{
+background-image: url(../img/luces.gif);
+	background-size: cover;
+	font-family: 'Princess Sofia', cursive;
+/*	font-family: 'Rubik Gemstones', cursive;*/
+	color: white;
+	margin: 0;
+/*background-image: url(../img/luces1.gif);*/
+/*background-image: url(../img/snow.gif);*/
+}
+
+
+.flexbox{
+	width: 100%;
+	height: 100px;
+	background-image: url(../img/luces.gif);
+	display: flex;
+	text-align: center;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: none;
+	flex:;
+}
+
+.caja{
+	border: 1px solid black;
+	height: 200px;
+	display: flex;
+	/*justify-content: center;
+	align-items: center;*/
+	flex-basis: 25%;
+	margin: 20px;
+
+}
+
+/*.azul{
+	background-color: blue;*/
+}
+
+div.caja img{
+	height: 100%;
+}
+.es:hover{
+	background-image:url(../img/badajoz1.jpg);
+	background-size: cover;
+}
+
+.it:hover{
+	background-image: url(../img/calt2.jpg);
+	/*background-position: top center;*/
+	background-size: cover;
+}
+
+.en:hover{
+	background-image: url(../img/bour.jpeg);
+	background-size: cover;}
+
+.de:hover{
+	background-image: url(../img/munich.jpg);
+	background-size: cover;}
+
+.pt:hover{
+	background-image: url(../img/porto2.jpg);
+	background-size: cover;}
+
+
+.br:hover{
+	background-image: url(../img/bru.jpg);
+	background-size: cover;}
+
+.ve:hover{
+	background-image: url(../img/cac.jpg);
+	background-size: cover;}
+
+	.ve1:hover{
+	background-image: url(../img/ori.jpg);
+	background-size: cover;}
+	}
+
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color: red;
+}
